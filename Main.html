@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey form</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">Test survey</h1>
+    <p id="description">This is a test web page. Please fill this survey :)</p>
+    <form id="survey-form">
+      <h4>Please fill these informations</h4>
+      <hr>
+      <label for="name" id="name-label">Name : <input id="name" type="text" placeholder="Jhon richer" required>
+      <label for="email" id="email-label">Email : <input id="email" type="email" placeholder="Jhon@..." required>
+      <label for="number" id="number-label">Your age : <input id="number" type="number" required placeholder="18" min="10" max="180"></label>
+      <hr>
+      <label for="dropdown">Are you a freelancer? 
+        <select id="dropdown">
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+        </select>
+      </label>
+      <hr>
+      <label for="radios">Which one of these options do you prefer ?</label><label for="radios" id="radios-label"> 
+        <input type="radio" id="radios" name="radio" class="inline" checked value="pc"> PC
+        <input type="radio" id="radios" name="radio" class="inline" value="lap"> Laptop
+      </label>
+      <hr>
+      <label for="">
+        Where did you heared about us?<br>
+        <input type="checkbox" value="1" class="inline"> YouTube <br>
+        <input type="checkbox" value="2" class="inline"> Instagram<br>
+        <input type="checkbox" value="3" class="inline"> Facebook<br>
+        <input type="checkbox" value="4" class="inline"> Other
+
+      </label>
+      <hr>
+      <label for="bio">
+        Tell us about yourself : <br>
+        <textarea id="bio" placeholder="I like coding on the beach..."></textarea>
+      </label>
+      <label><input type="submit" id="submit"></label>
+    </form>
+  </body>
+</html>

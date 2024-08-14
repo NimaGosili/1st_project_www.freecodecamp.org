@@ -1,0 +1,63 @@
+body {
+  background-size : auto 100%;
+  background-repeat : no-repeat;
+  background-position : center;
+  background-color : #e2fcf0 ;
+}
+h1 , p {
+  font-family : Helvetica, sans-serif	;
+  text-align : center;
+  color : rgb(40, 53, 56);
+  
+
+}
+form[id="survey-form"] {
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.6));
+  min-width : 300px;
+  max-width : 600px;
+  border-radius : 10px;
+  color : white;
+  font-family : Arial, sans-serif	;
+  margin : 3em auto;
+  width : 60vw;
+  padding : 1em;
+  padding-bottom : 1.5em;
+  
+}
+h4 {
+  margin-top : 0;
+  text-shadow : 0 0 4px black , 0 0 5px black , 0 0 6px black;
+  
+}
+label {
+  display : block;
+  padding: 0.5rem 0;
+  font-family : sans-serif;
+  
+  
+}
+
+input , textarea{
+  margin: 0.25rem 0;
+  border-radius : 8px;
+  border : 1px solid white;
+  width : 100%;
+  min-height : 2em;
+  vertical-align: middle;
+  max-width : 100%;
+}
+
+.inline {
+  display : inline;
+  width : unset;
+}
+
+label[id="radios-label"]{
+  padding : 0.1em
+}
+
+input[id="submit"]{
+  float : right;
+  width : unset;
+}
+
